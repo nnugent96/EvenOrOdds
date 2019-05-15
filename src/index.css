@@ -14,8 +14,47 @@ body {
   font-size: 20px;
   padding: 2.5%;
   font-family: RobotoCondensed;
+  background-color: #2D3142;
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: EconomicaBold
+}
+
+.profileImage{
+  border-radius: 50%; 
+  max-height: 300px;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation: fade-in;
+  animation-duration: 2s;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation: fade-out;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {opacity: 100}
+  to {opacity: 0}
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 100}
+}
+
+.linkStyling {
+  color: #EF8354;
+}
+
+button {
+  background-color: #EF8354;
+  border-color: #EF8354;
+  color: #ffffff;
 }
