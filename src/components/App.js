@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { connect } from 'react-redux';
 import StartStop from "./StartStop";
+import Instructions from "./Instructions";
 
 class App extends Component {
   render(){
@@ -8,6 +8,7 @@ class App extends Component {
       <div>
         <h2>♥️ ♠️ Evens or Odds ♦️ ♣️</h2>
         <StartStop />
+        <Instructions />
       </div>
     );
   }

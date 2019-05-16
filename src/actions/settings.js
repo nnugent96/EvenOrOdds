@@ -1,4 +1,7 @@
-import { SET_GAME_STARTED, SET_INSTRUCTIONS_EXPANDED } from './types';
+import { 
+  SET_GAME_STARTED, 
+  SET_INSTRUCTIONS_EXPANDED,
+ } from './types';
 
 export const startGame = () => {
   return { type: SET_GAME_STARTED, gameStarted: true}
